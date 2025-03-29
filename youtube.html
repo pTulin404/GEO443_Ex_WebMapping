@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Youtube</title>
+    <style>
+          body {
+            background-color: #F2EFE7;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .linkbar {
+            display: flex;
+            background-color: #141413;
+            overflow: auto;
+        }
+        .linkbar a {
+            float: left;
+            color: #ffffff;
+            padding: 12px;
+            margin: 10px;
+            font-size: 17px;
+            }
+        .active {
+            background-color: #00ff0867;
+        }
+        .container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="linkbar">
+        <a href="index.html" class="active">
+            <i class="fa fa - fw fa-home"></i> Home
+        </a>
+        <a href="youtube.html">
+            <i class="fa fa - fw fa-youtube"></i> Youtube
+        </a>
+        <a href="swu_map.html">
+            <i class="fa fa - fw fa-map"></i> SWU map
+        </a>
+        <a href="qgis2web.html">
+            <i class="fa fa - fw fa-globe"></i> Qgis map
+        </a>
+    </div>
+    <br>
+    <div class="container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rzTMS2xxLnQ?si=DgfixI3JwF_QnmiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
